@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f4f4f4;
+    transition: background 0.5s ease-in-out;
+}
+
+#container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-image 0.5s ease-in-out;
+}
+
+#quote-box {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#quote-author {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #quote-box {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+}
