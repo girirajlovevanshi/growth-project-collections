@@ -3,7 +3,7 @@ body {
     text-align: center;
     padding: 20px;
     margin: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #000000, #333333);
     transition: background 0.5s ease-in-out;
 }
 
@@ -11,19 +11,35 @@ body {
     width: 80%;
     max-width: 800px;
     margin: auto;
+    margin-top: 2%;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 12px;
     background-size: cover;
     background-position: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     transition: background-image 0.5s ease-in-out;
 }
 
+#btn-box{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
 #quote-box {
     margin: 20px 0;
     font-size: 1.5em;
     font-weight: bold;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #quote-author {
@@ -35,11 +51,11 @@ body {
 button {
     padding: 10px 15px;
     margin: 10px;
-    border: none;
-    background: #3498db;
-    color: white;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 1em;
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
@@ -58,6 +74,7 @@ button:active {
     #container {
         width: 95%;
         padding: 20px;
+        margin: auto;
     }
 
     #quote-box {
