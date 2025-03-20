@@ -11,6 +11,7 @@ Implement a copy to clipboard button.
 Add a share on Twitter button.
 Set a random background image behind the quote
 Add a "Export" button to save the quote image to user computer
+
 API Endpoint
 
 https://api.freeapi.app/api/v1/public/quotes/quote/random
