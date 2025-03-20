@@ -15,7 +15,7 @@ const API_URL = process.env.API_URL;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // Serving static files from 'public' folder
-const publicPath = path.join(__dirname, "../public");
+const publicPath = path.join(__dirname, "public");
 app.use(express.static(publicPath))
 
 // Serving index.html when accessing "/"
