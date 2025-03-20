@@ -6,7 +6,7 @@ fetchQuote();
 
 async function fetchQuote() {
     try {
-        const response = await fetch("http://localhost:8000/api/quote");
+        const response = await fetch("https://growth-project-collections.onrender.com/api/quote");
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
         const data = await response.json();
